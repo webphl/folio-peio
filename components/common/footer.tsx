@@ -26,7 +26,7 @@ const Footer = () => {
   const renderFooterContent = (): React.ReactNode => (
     <>
       <h1 className="font-medium text-3xl md:text-4xl text-center">
-        Connect with me on social media.
+        Connectez-vous avec moi sur les Réseaux Sociaux.
       </h1>
       <div className="flex mt-8">{renderSocialIcons()}</div>
       <div className="flex mt-8">
@@ -52,7 +52,7 @@ const Footer = () => {
         ></Button>
       </div>
       <h2 className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with ❤️ by Ayush
+        Conçu et développé avec ❤️ par WebPhL
       </h2>
     </>
   );
